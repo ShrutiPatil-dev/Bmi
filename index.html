@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head">BODY MASS INDEX</h1>
+    <form class="form" name="bmiform">
+      Your Weight(kg): <input type="text" id="weight" size="20" autocomplete="off" required></br>
+      Your Height(Feet): <input type="text" id="fheight" size="20"autocomplete="off" required></br>
+      Your Height(Inch): <input type="text" id="iheight" size="20" autocomplete="off" required></br>
+      <button onClick="handleClick()" type="button">Calculate BMI</button></br>
+      <hr>
+      BMI 
+      </br>
+      <input type="text" id="bmi" size="20">
+      </br>
+      RESULT
+    </br> <input  type="text" id="status" size="20" autocomplete="off"></br>
+      <button type="reset" value="Reset" autocomplete="off">Reset</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
